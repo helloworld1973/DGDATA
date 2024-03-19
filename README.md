@@ -1,4 +1,4 @@
-# Deep Generative Domain Adaptation with Temporal Relation Attention Mechanism for Cross-User Activity Recognition
+# DGDATA: Deep Generative Domain Adaptation with Temporal Relation Attention Mechanism for Cross-User Activity Recognition
 
 ## Authors
 - Xiaozhou Ye, Email: xye685@aucklanduni.ac.nz
