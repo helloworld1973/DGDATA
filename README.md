@@ -13,6 +13,9 @@ This repository contains the code and data for our paper: "Deep Generative Domai
 
 ## Setup Environment
 Python 3.10.11
+
+pip install -r requirements.txt
+
 asttokens==2.4.1
 colorama==0.4.6
 comm==0.2.2
@@ -120,6 +123,14 @@ This repository contains various scripts and modules essential for training and 
 ### Utilities
 
 - `gen_model/utils/util.py`: Provides helper functions for logging, formatting, and setting random seeds.
+
+### Data process
+
+- `OPPT_get_features_samples.py`: reads the OPPT dataset, selects specific activities and sensor channels, and extracts data for a source user and a target user
+
+- `PAMAP2_get_features_samples.py`: reads the PAMAP2 dataset, selects specific activities and sensor channels, and extracts data for a source user and a target user
+
+- `DSADS_get_features_samples.py`: reads the DSADS dataset, selects specific activities and sensor channels, and extracts data for a source user and a target user
 
 # Hyperparameters
 The hyperparameters used in the model can significantly impact performance. Here are the key hyperparameters and their default values:
