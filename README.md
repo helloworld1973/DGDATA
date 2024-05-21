@@ -131,3 +131,10 @@ Mean-Variance Loss Coefficient (ζ): 10.0
 Class Constraint Loss Coefficient (γ): 30.0
 Domain Constraint Loss Coefficient (δ): 1.0
 Temporal State Constraint Loss Coefficient (η): 10.0
+
+# Basic Example
+Here is a basic example to get you started with training the model on the OPPT dataset:
+
+python GPU_OPPT_deepGenTRNet_main_with_autoregression.py
+
+This script will load the OPPT dataset, initialize the model, and start training.
