@@ -121,3 +121,13 @@ This repository contains various scripts and modules essential for training and 
 
 - `gen_model/utils/util.py`: Provides helper functions for logging, formatting, and setting random seeds.
 
+# Hyperparameters
+The hyperparameters used in the model can significantly impact performance. Here are the key hyperparameters and their default values:
+Training Epochs: 100
+Adam Optimizer Weight Decay: 0.0005
+Adam Optimizer Beta: 0.2
+Reconstruction Loss Coefficient (α): 1.0
+Mean-Variance Loss Coefficient (ζ): 10.0
+Class Constraint Loss Coefficient (γ): 30.0
+Domain Constraint Loss Coefficient (δ): 1.0
+Temporal State Constraint Loss Coefficient (η): 10.0
