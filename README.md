@@ -11,6 +11,10 @@ Department of Electrical, Computer, and Software Engineering, The University of 
 
 This repository contains the code and data for our paper: "Deep Generative Domain Adaptation with Temporal Relation Attention Mechanism for Cross-User Activity Recognition". The goal of this project is to enhance cross-user Human Activity Recognition (HAR) by integrating temporal dependency relations during domain adaptation.
 
+## Paper Link
+
+https://arxiv.org/abs/2403.17958
+
 ## Setup Environment
 Python 3.10.11
 
