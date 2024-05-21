@@ -132,6 +132,12 @@ This repository contains various scripts and modules essential for training and 
 
 - `DSADS_get_features_samples.py`: reads the DSADS dataset, selects specific activities and sensor channels, and extracts data for a source user and a target user
 
+- `read_dataset/read_OPPT_dataset.py`: read and process OPPT data. It initializes with parameters for users, window sizes, and sampling frequency, and includes methods to map activities, identify sensor channels, and segment data
+
+- `read_dataset/read_PAMAP2_dataset.py`: read and process PAMAP2 data. It initializes with parameters for users, window sizes, and sampling frequency, and includes methods to map activities, identify sensor channels, and segment data
+
+- `read_dataset/read_DSADS_dataset.py`: read and process DSADS data. It initializes with parameters for users, window sizes, and sampling frequency, and includes methods to map activities, identify sensor channels, and segment data
+
 # Hyperparameters
 
 The hyperparameters used in the model can significantly impact performance. Here are the key hyperparameters and their default values:
