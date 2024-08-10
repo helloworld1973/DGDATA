@@ -13,7 +13,17 @@ This repository contains the code and data for our paper: "Deep Generative Domai
 
 ## Paper Link
 
-https://arxiv.org/abs/2403.17958
+[https://www.sciencedirect.com/science/article/pii/S0031320324005624]
+
+## Reference
+@article{ye2024deep,
+  title={Deep generative domain adaptation with temporal relation attention mechanism for cross-user activity recognition},
+  author={Ye, Xiaozhou and Kevin, I and Wang, Kai},
+  journal={Pattern Recognition},
+  pages={110811},
+  year={2024},
+  publisher={Elsevier}
+}
 
 ## Setup Environment
 Python 3.10.11
